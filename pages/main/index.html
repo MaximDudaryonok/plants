@@ -115,13 +115,23 @@
                 <div class="prices__container__left">
                     <h2 class="prices__title">Prices</h2>
                     <div class="prices__button__container">
-                        <button class="button__prices">Basics</button>
-                        <button class="button__prices">Standard</button>
-                        <button class="button__prices">Pro care</button>
+                        <div class="button__prices">
+                            <p>Basics</p><img class="button__prices__img" src="/assets/images/accordion_btn.svg"
+                                alt="menu">
+                        </div>
+                        <div class="button__prices">
+                            <p>Standard</p><img class="button__prices__img" src="/assets/images/accordion_btn.svg"
+                                alt="menu">
+                        </div>
+                        <div class="button__prices">
+                            <p>Pro care</p><img class="button__prices__img" src="/assets/images/accordion_btn.svg"
+                                alt="menu">
+                        </div>
                     </div>
                 </div>
                 <div class="prices__container__right">
-                    <h3 class="prices__text">Our best gardeners are ready to help you</h3>
+                    <h3 class="prices__text">Our best <span class="prices__text__green">gardeners</span> are<br>ready to
+                        help you</h3>
                     <button class="prices__contact__button">Contact us</button>
                     <img class="prices__img" src="/assets/images/pricesleafs.png" alt="leafs">
                 </div>
@@ -135,7 +145,9 @@
                     <img class="contacts__img" src="/assets/images/contact_woman.png">
                     <h2 class="contacts__title">Contact us</h2>
                     <div class="input__container">
-                        <input class="contacts__input" placeholder="City">
+                        <div class="input__container__position"><input class="contacts__input" placeholder="City">
+                            <img class="input__container__img" src="/assets/images/input_logo.svg" alt="MENU">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -143,14 +155,14 @@
     </section>
     <footer class="footer">
         <div class="wrapper">
-            <div class="footer__container"> //flex
-                <div class="copyright__container"> //grid
-                    <p class="copyright__logo">©</p>
-                    <p class="year">2022</p>
-                    <p class="github">github</p>
+            <div class="footer__container">
+                <div class="copyright__container">
+                    <p class="copyright__logo copyright__font">©</p>
+                    <p class="year copyright__font">2022</p>
+                    <p class="github copyright__font">github</p>
                 </div>
-                <h2 class="footer__title">Rolling Scopes School</h2>
-                <div class="footer__social__container"> //grid
+                <h2 class="footer__title copyright__font">Rolling Scopes School</h2>
+                <div class="footer__social__container">
                     <img class="social__icon" src="/assets/images/inst.svg" alt="instagram">
                     <img class="social__icon" src="/assets/images/facebook.svg" alt="facebook">
                     <img class="social__icon" src="/assets/images/twit.svg" alt="twitter">

@@ -230,9 +230,55 @@ a {
     row-gap: 32px;
 }
 
+.button__prices {
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.prices__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+.prices__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.prices__text__green {
+    color: #499A18;
+}
+
+.button__prices__img {
+    width: 16px;
+    height: 16px;
+}
+
 .prices__container__right {
     display: flex;
     flex-direction: column;
+    align-items: end;
 }
 
 
@@ -242,5 +288,92 @@ a {
 
 .input__container {
     display: flex;
-    flex-direction: column;
+}
+
+.input__container__position {
+    height: 50px;
+    width: 450px;
+    position: relative;
+    margin-top: 25%;
+    margin-left: 30%;
+}
+
+.contacts__input {
+    width: 450px;
+    height: 50px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    border: none;
+
+}
+
+.input__container__img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 90%;
+    top: 30%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.prices__contact__button {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.contacts__title {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.copyright__container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 19px 49px 61px;
+    column-gap: 20px;
+}
+
+.copyright__font {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.footer__social__container {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, 32px);
+    column-gap: 20px;
 }
