@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@700&display=swap');
+
+.background {
+    background-color: #EDF2EC;
+}
+
+.wrapper {
+    width: 1440px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__container {
+    display: flex;
+    margin-top: 52px;
+    margin-left: 109px;
+}
+
+.logo__text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.logo__img {
+    width: 20px;
+    height: 20px;
+}
+
+.navigation__menu {
+    display: flex;
+    width: 454px;
+    justify-content: space-between;
+    margin-top: 42px;
+    margin-right: 109px;
+    margin-bottom: 42px;
+}
+
+.navigation__item {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #010201;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.welcome__container {
+    display: flex;
+}
+
+.welcome__img {
+    width: 448.8px;
+    height: 407.36px;
+}
+
+.welcome__text__btn__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.welcome__title__green {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #499A18;
+}
+
+.welcome__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+}
+
+.welcome__btn {
+    width: 158px;
+    height: 44px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__text__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.about__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.about__title__red {
+    color: #E06733;
+}
+
+.service__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.service__title__container {
+    display: flex;
+}
+
+.service__title {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.service__button {
+    border: 1px solid #E06733;
+    width: 161px;
+    height: 50px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    border-radius: 5px;
+}
+
+.service__card__container {
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: repeat(2, 450px);
+    column-gap: 116px;
+    row-gap: 55px;
+}
+
+.service__card {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+    width: 330px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service__card__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.service__card__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.prices__container {
+    display: flex;
+}
+
+.prices__container__left {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices__button__container {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: repeat(3, 50px);
+    row-gap: 32px;
+}
+
+.prices__container__right {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contacts__container {
+    display: flex;
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+}
