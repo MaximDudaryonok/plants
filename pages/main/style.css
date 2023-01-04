@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
+.logo__container {
+    cursor: pointer;
+}
+
+a {
+    color: #010201;
+}
+
+a:hover {
+    color: #499A18;
+}
+
+.navigation__item__welcome_active {
+    color: #E06733;
+}
+
+
 .background {
     background-color: #EDF2EC;
 }
@@ -140,6 +161,12 @@ a {
 .welcome__btn:hover {
     transition-duration: 0.5s;
 
+    background-color: #E06733;
+    color: white;
+}
+
+.service__button:hover {
+    transition-duration: 0.5s;
     background-color: #E06733;
     color: white;
 }
@@ -513,6 +540,12 @@ a {
     padding-left: 6%;
 }
 
+.contacts__input:focus {
+    outline: none;
+    background: #C1E698;
+
+}
+
 .input__container__img {
     width: 16px;
     height: 16px;
@@ -607,4 +640,14 @@ button {
 .footer__social__link__twit {
     margin-top: 5%;
     margin-left: -1%;
+}
+
+.social__icon:hover {
+    cursor: pointer;
+    filter: invert(69%) sepia(61%) saturate(6738%) hue-rotate(65deg) brightness(94%) contrast(81%);
+    ;
+}
+
+.button__prices:hover {
+    background-color: #C1E698;
 }
